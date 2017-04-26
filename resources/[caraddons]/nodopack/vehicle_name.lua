@@ -1,0 +1,17 @@
+function AddTextEntry(key, value)
+	Citizen.InvokeNative(GetHashKey("ADD_TEXT_ENTRY"), key, value)
+end
+
+Citizen.CreateThread(function()
+  AddTextEntry('0xEB1BEF71', 'Patriot Classic')
+  AddTextEntry('0xC6D3D809', 'JB700 GT')
+  AddTextEntry('0xC593CAF5', 'Elegy RH8-R')
+  AddTextEntry('0x2B0C4DCD', 'Gauntlet Cerberus')
+  AddTextEntry('0x80E7994B', 'Revolution SG-RX')
+  AddTextEntry('0x5D1903F9', 'Comet Retro')
+  AddTextEntry('0x991EFC04', 'Comet Turbo S')
+  AddTextEntry('0x276D98A3', 'Comet 4s')
+  AddTextEntry('0x4595C0CA', 'Police Dominator')
+  AddTextEntry('0xF942F377', 'Sultan RS-Four')
+  AddTextEntry('0x7FB2D428', 'T10 LMS')
+end)

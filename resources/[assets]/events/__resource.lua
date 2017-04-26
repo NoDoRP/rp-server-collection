@@ -1,0 +1,5 @@
+client_script 'client.lua'
+client_script 'client2.lua'
+client_script 'clientheal.lua'
+client_script 'respawn.lua'
+server_script 'server.lua'

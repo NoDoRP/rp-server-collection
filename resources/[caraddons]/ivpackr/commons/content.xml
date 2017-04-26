@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IVPack DLC content file version 1.0.120 --> 
+<!-- DO NOT DISTRIBUTE WITHOUT PERMISSION OF THE CREATORS! -->
+<CDataFileMgr__ContentsOfDataFileXml>
+  <disabledFiles />
+  <includedXmlFiles />
+  <includedDataFiles />
+  <dataFiles>
+    <Item>
+      <filename>dlc_pres:/common/data/levels/gta5/vehicles.meta</filename>
+      <fileType>VEHICLE_METADATA_FILE</fileType>
+      <overlay value="false" />
+      <disabled value="true" />
+      <persistent value="false" />
+    </Item>
+    <Item>
+      <filename>dlc_pres:/common/data/carvariations.meta</filename>
+      <fileType>VEHICLE_VARIATION_FILE</fileType>
+      <overlay value="false" />
+      <disabled value="true" />
+      <persistent value="false" />
+    </Item>
+	<Item>
+      <filename>dlc_pres:/common/data/carcols.meta</filename>
+      <fileType>CARCOLS_FILE</fileType>
+      <overlay value="false" />
+      <disabled value="true" />
+      <persistent value="false" />
+    </Item>
+	<Item>
+      <filename>dlc_pres:/common/data/dlctext.meta</filename>
+      <fileType>TEXTFILE_METAFILE</fileType>
+      <overlay value="false" />
+      <disabled value="true" />
+      <persistent value="true" />
+    </Item>
+    <Item>
+      <filename>dlc_pres:/common/data/handling.meta</filename>
+      <fileType>HANDLING_FILE</fileType>
+      <overlay value="false" />
+      <disabled value="true" />
+      <persistent value="false" />
+    </Item>
+    <Item>
+      <filename>dlc_pres:/%PLATFORM%/levels/gta5/vehicles/presvehicles.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <overlay value="false" />
+      <disabled value="true" />
+      <persistent value="true" />
+    </Item>
+    <Item>
+      <filename>dlc_pres:/%PLATFORM%/levels/pres/vehiclemods/global_mods.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <overlay value="false" />
+      <disabled value="true" />
+      <persistent value="true" />
+    </Item>
+	<Item>
+      <filename>dlc_pres:/%PLATFORM%/levels/pres/vehiclemods/vanilla_mods.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <overlay value="false" />
+      <disabled value="true" />
+      <persistent value="true" />
+    </Item>
+  </dataFiles>
+  <contentChangeSets>
+	<Item>
+	  <changeSetName>pres_AUTOGEN</changeSetName>
+	  <filesToDisable />
+	  <filesToEnable>
+		<Item>dlc_pres:/common/data/levels/gta5/vehicles.meta</Item>
+        <Item>dlc_pres:/common/data/handling.meta</Item>
+		<Item>dlc_pres:/common/data/dlctext.meta</Item>
+        <Item>dlc_pres:/common/data/carcols.meta</Item>
+        <Item>dlc_pres:/common/data/carvariations.meta</Item>
+        <Item>dlc_pres:/%PLATFORM%/levels/gta5/vehicles/presvehicles.rpf</Item>
+        <Item>dlc_pres:/%PLATFORM%/levels/pres/vehiclemods/global_mods.rpf</Item>
+        <Item>dlc_pres:/%PLATFORM%/levels/pres/vehiclemods/vanilla_mods.rpf</Item>
+	  </filesToEnable>
+	  <txdToLoad />
+	  <txdToUnload />
+	  <residentResources />
+	  <unregisterResources />
+	</Item>
+  </contentChangeSets>
+  <patchFiles />
+</CDataFileMgr__ContentsOfDataFileXml>

@@ -1,0 +1,3 @@
+[submodule "libs/ini-parser"]
+	path = libs/ini-parser
+	url = https://github.com/ejb1123/ini-parser.git
